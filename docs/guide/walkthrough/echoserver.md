@@ -309,7 +309,7 @@ follow below steps If you want to use kube2iam to provide the AWS credentials
     The policy to be used can be fetched from https://raw.githubusercontent.com/kubernetes-sigs/aws-alb-ingress-controller/v1.1.2/docs/examples/iam-policy.json
 
 1. configure the proper role and create the trust relationship
-    You have to find which role is associated woth your K8S nodes. Once you found take note of the full arn:
+    You have to find which role is associated with your K8S nodes. Once you found take note of the full arn:
 
     ```
     arn:aws:iam::XXXXXXXXXXXX:role/k8scluster-node
